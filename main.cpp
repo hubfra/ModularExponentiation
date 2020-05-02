@@ -1,8 +1,8 @@
 
 #include <iostream>
 
-int64_t ModPow(int64_t base, int64_t exponent, int64_t modulus);
 
+int64_t ModPow(int64_t base, int64_t exponent, int64_t modulus);
 
 int main()
 {
@@ -15,7 +15,6 @@ int main()
 
 	return 0;
 }
-
 
 int64_t ModPow(int64_t b, int64_t e, int64_t m)
 {
